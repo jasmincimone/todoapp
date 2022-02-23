@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import headerimage from './photos/todolisttitle.png';
 import './App.css';
 import {connect} from 'react-redux';
 import Form from './form';
@@ -10,12 +10,19 @@ const mapStateToProps = (state) => ({
 function App(props) {
   const {todo} = props
   console.log(todo)
-  return (
+  return (  
     <div className="App">
 
-      <Form todo={todo}/>
-      {todo.map((task)=> <span> {task.task}</span> )}
+      <header> <img src={headerimage} height={300} width={700} alt={'todolisttitle'} /> </header>
 
+      <div className='List'>
+
+      <Form todo={todo}/>
+
+      <h4>To Do List:</h4>
+      {todo.map((task)=> <span className='toDoList'> {task.task}</span> )}
+
+      </div>
     </div>
   );
 }

@@ -19,18 +19,21 @@ const Form = (props) => {
 
     return (
         <div>
-            <h4>Add New Contact:</h4>
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="toDo">To Do: </label>
+            <form onSubmit={handleSubmit}>
+            <label htmlFor="toDo">New To Do's  :  </label>
             <input 
+                className='input'
                 type="text" 
                 name="toDo" 
                 value={toDo} 
                 onChange={(e) => setToDo(e.target.value)}
             />
             <br />
-
-            <input type="submit"/>
+            <br />
+            <input type="submit" className='button'/>
+            <br />
+            <br />
+            <br />
         </form>
         </div>
     )

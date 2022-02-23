@@ -1,16 +1,57 @@
+.header {
+  background-image: url(https://c8.alamy.com/comp/2AKG820/handwritten-lettering-calligraphy-vector-text-to-do-list-business-concept-for-meeting-or-organizer-or-planning-notes-can-place-your-own-phrase-2AKG820.jpg);
+}
+
 .App {
+  background-image: url(https://i.pinimg.com/originals/f8/64/a0/f864a0123a986a507d9dbf4e42b34af9.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
   text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.List {
+  background-image: url(https://i.pinimg.com/originals/f8/64/a0/f864a0123a986a507d9dbf4e42b34af9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: black;
+  background-blend-mode: color-burn; */
+  border: black solid 2px;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Impact;
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.toDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border: black solid 2px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  font-family: Impact;
+  padding: 8px;
 }
 
 .App-header {
