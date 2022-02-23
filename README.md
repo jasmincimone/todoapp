@@ -1,6 +1,8 @@
 TO DO LIST APP 
 USING REDUX 
 
+![Screen Shot 2022-02-23 at 2 55 31 AM](https://user-images.githubusercontent.com/95100754/155367023-537f1e44-f876-4f24-86f9-c43051a99df6.png)
+
 
 # Getting Started with Create React App
 
