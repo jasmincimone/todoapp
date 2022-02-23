@@ -30,6 +30,15 @@ const Form = (props) => {
             />
             <br />
             <br />
+            <input 
+                className='input'
+                type="text" 
+                name="updatetoDo" 
+                value={updatetoDo} 
+                onChange={(e) => setToDo(e.target.value)}
+            />
+            <br />
+            <br />
             <input type="submit" className='button'/>
             <br />
             <br />
